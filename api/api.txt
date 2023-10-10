@@ -1,0 +1,86 @@
+Get all: http://localhost:3000/addresses/
+get 1 : http://localhost:3000/addresses/1
+
+
+
+const apiUrl = 'http://localhost:3000/posts';
+
+// Create - POST
+fetch(apiUrl, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({ title: 'New Post', content: 'Content for new post' }),
+})
+  .then(response => response.json())
+  .then(data => console.log('Created:', data))
+  .catch(error => console.error('Error:', error));
+
+// Read - GET
+fetch(apiUrl)
+  .then(response => response.json())
+  .then(data => console.log('Read:', data))
+  .catch(error => console.error('Error:', error));
+
+// Update - PUT
+const postIdToUpdate = 1;
+fetch(`${apiUrl}/${postIdToUpdate}`, {
+  method: 'PUT',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({ title: 'Updated Post', content: 'Updated content' }),
+})
+  .then(response => response.json())
+  .then(data => console.log('Updated:', data))
+  .catch(error => console.error('Error:', error));
+
+// Delete - DELETE
+const postIdToDelete = 2;
+fetch(`${apiUrl}/${postIdToDelete}`, {
+  method: 'DELETE',
+})
+  .then(response => console.log('Deleted:', postIdToDelete))
+  .catch(error => console.error('Error:', error));
+
+
+data
+
+{
+  "id":1,
+  "name": "Ridham",
+  "street1": "Royal Residency, Barshi",
+  "street2": "Royal Residency, Barshi",
+  "city": "Barshi",
+  "phoneNumber": 7455899547,
+  "pincode": 360041
+},
+{
+  "id":2,
+  "name": "ajit",
+  "street1": "Royal Residency, Barshi",
+  "street2": "Royal Residency, Barshi",
+  "city": "Barshi",
+  "phoneNumber": 7455899547,
+  "pincode": 360041
+},
+{
+  "id":3,
+  "name": "sagar",
+  "street1": "Royal Residency, Barshi",
+  "street2": "Royal Residency, Barshi",
+  "city": "Barshi",
+  "phoneNumber": 7455899547,
+  "pincode": 360041
+},
+{
+  "id":4,
+  "name": "vivek",
+  "street1": "Royal Residency, Barshi",
+  "street2": "Royal Residency, Barshi",
+  "city": "Barshi",
+  "phoneNumber": 7455899547,
+  "pincode": 360041
+}
+

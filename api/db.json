@@ -1,0 +1,67 @@
+{
+  "addresses": [
+    {
+      "id": 1,
+      "name": "Ridham",
+      "street1": "Royal Residency, Barshi",
+      "street2": "Royal Residency, Barshi",
+      "city": "Barshi",
+      "phoneNumber": 7455899547,
+      "pincode": 360041
+    },
+    {
+      "id": 2,
+      "name": "ajit",
+      "street1": "Royal Residency, Barshi",
+      "street2": "Royal Residency, Barshi",
+      "city": "Barshi",
+      "phoneNumber": 7455899547,
+      "pincode": 360041
+    },
+    {
+      "name": "sagar",
+      "street1": "Royal Residency, Barshi",
+      "street2": "Royal Residency, Barshi",
+      "city": "Barshi",
+      "phoneNumber": 7455899547,
+      "pincode": 360041,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Ridham",
+      "street1": "Royal Residency, Barshi",
+      "street2": "Royal Residency, Barshi",
+      "city": "Barshi",
+      "phoneNumber": 7455899547,
+      "pincode": 360041
+    },
+    {
+      "id": 5,
+      "name": "ajit",
+      "street1": "Royal Residency, Barshi",
+      "street2": "Royal Residency, Barshi",
+      "city": "Barshi",
+      "phoneNumber": 7455899547,
+      "pincode": 360041
+    },
+    {
+      "id": 6,
+      "name": "sagar",
+      "street1": "Royal Residency, Barshi",
+      "street2": "Royal Residency, Barshi",
+      "city": "Barshi",
+      "phoneNumber": 7455899547,
+      "pincode": 360041
+    },
+    {
+      "id": 7,
+      "name": "vivek",
+      "street1": "Royal Residency, Barshi",
+      "street2": "Royal Residency, Barshi",
+      "city": "Barshi",
+      "phoneNumber": 7455899547,
+      "pincode": 360041
+    }
+  ]
+}
